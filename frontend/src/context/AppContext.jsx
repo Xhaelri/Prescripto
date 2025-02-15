@@ -12,7 +12,7 @@ const AppContextProvider = (props) => {
         doctors,
         currencySymbol
     }
-
+//remove provider react 19
     return (
         <AppContext.Provider value={value} >
             {props.children}
